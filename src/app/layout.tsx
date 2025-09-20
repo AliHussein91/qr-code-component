@@ -16,9 +16,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  
   return (
     <html lang="en">
-      <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+      <link rel="shortcut icon" href="/favicon.png" type={`/qr-code-component/favicon.png`} />
       <body
         className={`${outfit.className} antialiased bg-slate-300 flex justify-center items-center h-screen`}
       >

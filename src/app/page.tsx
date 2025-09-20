@@ -2,7 +2,7 @@ export default function Card() {
 	return (
 		<div className="p-5 rounded-xl bg-white flex flex-col gap-5 justify-center items-center text-center w-[310px]">
 			<img
-				src="/image-qr-code.png"
+				src={`/qr-code-component/image-qr-code.png`}
 				alt="QR Code Image"
 				width={300}
 				height={300}
